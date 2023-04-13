@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* utility class */
+
+.section {
+  padding: 10px 20px;
+}
+
+img {
+  width: 50px;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* main */
+.hero {
+  background-image: url(./images/index-intro-bg-v3.jpg);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+}
